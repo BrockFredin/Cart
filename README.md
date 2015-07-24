@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/linnovate/mean.svg)](https://travis-ci.org/linnovate/mean)
+# [![BROCK Logo](https://avatars2.githubusercontent.com/u/1825470?v=3&s=400)](https://github.com/BrockFredin) Cart API
 
-# [![MEAN Logo](https://avatars2.githubusercontent.com/u/1825470?v=3&s=400)](https://github.com/BrockFredin) Cart API
-
-CART API is a framework for an easy starting point with [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. It is designed to give you a quick and organized way to start developing MEAN based web apps with useful modules like Mongoose and Passport pre-bundled and configured. We mainly try to take care of the connection points between existing popular frameworks and solve common integration problems.
+CART API is a framework for an easy starting point with [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. It is designed to give you a quick and organized way to start developing CART API based web apps with useful modules like Mongoose and Passport pre-bundled and configured. We mainly try to take care of the connection points between existing popular frameworks and solve common integration problems.
 
 ## Prerequisite Technologies
 ### Linux
@@ -31,7 +29,7 @@ $ sudo apt-get install nodejs
 
 ## Prerequisite packages
 
-* Mean currently works with either grunt or gulp..
+* CART API currently works with either grunt or gulp..
 ```
 $ npm install -g gulp
 // and bower
@@ -39,5 +37,5 @@ $ npm install -g bower
 ```
 
 ## Installation
-To start with MEAN install the `mean-cli` package from NPM.
-This will add the *mean* command which lets you interact (install, manage, update ...) your Mean based application.
+To start with a CART API install the `mean-cli` package from NPM.
+This will add the *mean* command which lets you interact (install, manage, update ...) your CART API based application.
