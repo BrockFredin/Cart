@@ -63,24 +63,25 @@ module.exports = function (Cart) {
          */
         fakeProducts: function (req, res, next) {
 
-            var productData = {
+            var mockData = {
                 "sku": "123",
                 "name": "ABC",
-                "category": "Whack Cat bro",
+                "category": "brock",
                 "price": "12.12",
                 "updated": "1234"
             };
 
-            Products.create(productData, function (error, data) {
-                var response = {
-                    success: 1,
-                    brockData   : data
-                };
+            var dData = [];
 
-                res.set({'Content-Type': "application/json"});
-                res.send(JSON.stringify(response));
+            for (var i = 1; i < 8; i++) {
+                var tmp = extend({}, mockData);
+                tmp.name = mockData.name + " " + i;
+                dData.push(tmp);
+                Products.create(tmp, function () {});
+            }
 
-            });
+            res.set({'Content-Type': "application/json"});
+            res.send(JSON.stringify({}));
         },
 
         /**
@@ -117,7 +118,7 @@ module.exports = function (Cart) {
         productById: function (req, res, next) {
             var id = req.param('id');
 
-            Products.find(id, function (error, data) {
+            Products.find({_id : id}, function (error, data) {
 
                 if(error) {
                     console.log("error with [productById]" + error);
