@@ -1,4 +1,5 @@
-# [![BROCK Logo](https://avatars2.githubusercontent.com/u/1825470?v=3&s=400)](https://github.com/BrockFredin) Cart API
+# [![BROCK Logo](https://avatars2.githubusercontent.com/u/1825470?v=3&s=400)](https://github.com/BrockFredin)
+Cart API
 
 CART API is a framework for an easy starting point with [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. It is designed to give you a quick and organized way to start developing CART API based web apps with useful modules like Mongoose and Passport pre-bundled and configured. We mainly try to take care of the connection points between existing popular frameworks and solve common integration problems.
 
